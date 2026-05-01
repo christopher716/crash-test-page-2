@@ -129,7 +129,16 @@ h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-backg
   }
 }
 
+@media (max-width: 768px) {
+  .mobile-fit-row .wp-block-heading {
+    font-size: clamp(17px, 4vw, 19px) !important;
+  }
 
+  .mobile-fit-row .wp-block-paragraph,
+  .mobile-fit-row p {
+    font-size: clamp(14px, 3.5vw, 16px) !important;
+  }
+}
 :root :where(.wp-block-button .wp-block-button__link){padding-top: var(--wp--preset--spacing--x-small);padding-right: var(--wp--preset--spacing--small);padding-bottom: var(--wp--preset--spacing--x-small);padding-left: var(--wp--preset--spacing--small);}
 :root :where(.wp-block-buttons){border-radius: var(--wp--custom--border-radius--rounded);color: var(--wp--custom--color--text);}:root :where(.wp-block-buttons-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flow) > *{margin-block-start: var(--wp--preset--spacing--x-small);margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-constrained) > *{margin-block-start: var(--wp--preset--spacing--x-small);margin-block-end: 0;}:root :where(.wp-block-buttons-is-layout-flex){gap: var(--wp--preset--spacing--x-small);}:root :where(.wp-block-buttons-is-layout-grid){gap: var(--wp--preset--spacing--x-small);}
 :root :where(.wp-block-social-links-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-social-links-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-social-links-is-layout-flow) > *{margin-block-start: var(--wp--preset--spacing--x-small);margin-block-end: 0;}:root :where(.wp-block-social-links-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-social-links-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-social-links-is-layout-constrained) > *{margin-block-start: var(--wp--preset--spacing--x-small);margin-block-end: 0;}:root :where(.wp-block-social-links-is-layout-flex){gap: var(--wp--preset--spacing--x-small);}:root :where(.wp-block-social-links-is-layout-grid){gap: var(--wp--preset--spacing--x-small);}
